@@ -1,4 +1,4 @@
-# node-red-contrib-reboot-persistent-fsm
+# node-red-contrib-rp-fsm
 
 A Node-Red node that wraps around the [Javascript State Machine](https://www.npmjs.com/package/javascript-state-machine) to implement a [finite state machine](https://en.wikipedia.org/wiki/Finite-state_machine) for Node-Red.
 

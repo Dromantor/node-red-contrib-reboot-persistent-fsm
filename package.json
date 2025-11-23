@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-reboot-persistent-fsm",
+  "name": "node-red-contrib-rp-fsm",
   "version": "1.0.1",
   "description": "A Node Red node for implementing a reboot persistent finite state machine.",
   "dependencies": {
@@ -18,12 +18,12 @@
     "context"
   ],
   "bugs": {
-    "url": "https://github.com/Dromantor/node-red-contrib-reboot-persistent-fsm/issues"
+    "url": "https://github.com/Dromantor/node-red-contrib-rp-fsm/issues"
   },
-  "homepage": "https://github.com/Dromantor/node-red-contrib-reboot-persistent-fsm",
+  "homepage": "https://github.com/Dromantor/node-red-contrib-rp-fsm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dromantor/node-red-contrib-reboot-persistent-fsm.git"
+    "url": "git+https://github.com/Dromantor/node-red-contrib-rp-fsm.git"
   },
   "node-red": {
     "nodes": {
