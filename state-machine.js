@@ -157,7 +157,7 @@ module.exports = function (RED) {
       }
     })
   }
-  RED.nodes.registerType('state-machine', StateMachineNode)
+  RED.nodes.registerType('rp-state-machine', StateMachineNode)
 
   RED.httpAdmin.get('/fsm/graph.js', function (req, res) {
     res.sendFile(`${__dirname}/graph.js`)

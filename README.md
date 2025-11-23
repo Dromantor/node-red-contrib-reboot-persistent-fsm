@@ -2,6 +2,8 @@
 
 A Node-Red node that wraps around the [Javascript State Machine](https://www.npmjs.com/package/javascript-state-machine) to implement a [finite state machine](https://en.wikipedia.org/wiki/Finite-state_machine) for Node-Red.
 
+Personal modification of [xoh](https://github.com/xoh/node-red-contrib-reboot-persistent-fsm)'s reboot-persistent FSM because I had a node-name collision in the NodeRED-Addon in HomeAssistant (they seem to ship the non-reboot-persistent version pre-packaged in their docker-image, which makes it unremovable).
+
 An extension of [hufftheweevil](https://github.com/hufftheweevil/node-red-contrib-persistent-fsm/)'s persistent FSM, which is a non-reboot persistent combination of [DeanCording](https://github.com/DeanCording/node-red-contrib-state-machine)'s and [lutzer](https://github.com/lutzer/node-red-contrib-finite-statemachine)'s similar libraries with the following notable change:
 
 - Allows picking a custom variable to persist the FSM state with support of [Node-RED contexts](https://nodered.org/docs/user-guide/context) enabling reboot persistence

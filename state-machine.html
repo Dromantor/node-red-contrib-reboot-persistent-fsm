@@ -77,7 +77,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <script type="text/javascript" src="fsm/graph.js" inline></script>
 <script type="text/javascript">
   ;(function () {
-    RED.nodes.registerType('state-machine', {
+    RED.nodes.registerType('rp-state-machine', {
       category: 'function',
       color: '#ffb0a5',
       defaults: {
@@ -436,7 +436,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   })()
 </script>
 
-<script type="text/html" data-template-name="state-machine">
+<script type="text/html" data-template-name="rp-state-machine">
   <div class="form-row">
       <label for="node-input-name"><i class="icon-tag"></i> Name</label>
       <input type="text" id="node-input-name" placeholder="Name">
@@ -497,7 +497,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   </div>
 </script>
 
-<script type="text/html" data-help-name="state-machine">
+<script type="text/html" data-help-name="rp-state-machine">
   <p>A node that implements a finite state machine using messages to trigger state transitions.</p>
 
   <h3>Properties</h3>

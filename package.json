@@ -5,7 +5,7 @@
   "dependencies": {
     "javascript-state-machine": "3.*"
   },
-  "author": "xoh",
+  "author": "Dromantor",
   "license": "MIT",
   "keywords": [
     "node-red",
@@ -18,16 +18,16 @@
     "context"
   ],
   "bugs": {
-    "url": "https://github.com/xoh/node-red-contrib-reboot-persistent-fsm/issues"
+    "url": "https://github.com/Dromantor/node-red-contrib-reboot-persistent-fsm/issues"
   },
-  "homepage": "https://github.com/xoh/node-red-contrib-reboot-persistent-fsm",
+  "homepage": "https://github.com/Dromantor/node-red-contrib-reboot-persistent-fsm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xoh/node-red-contrib-reboot-persistent-fsm.git"
+    "url": "git+https://github.com/Dromantor/node-red-contrib-reboot-persistent-fsm.git"
   },
   "node-red": {
     "nodes": {
-      "state-machine": "state-machine.js"
+      "rp-state-machine": "state-machine.js"
     }
   },
   "scripts": {
